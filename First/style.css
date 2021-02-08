@@ -1,0 +1,12 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#canvas1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#3f85ee, #3160a3, #5e87c0);
+}

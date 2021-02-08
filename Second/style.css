@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #25364f;
+}
+
+#canvas1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#a8f55b, #78e16f, #1a331e);
+  /* background: #000; */
+}
+
+#btn {
+  position: absolute;
+  z-index: 1;
+  margin: 1rem;
+  cursor: pointer;
+  outline: none;
+  padding: 0.5rem;
+}
