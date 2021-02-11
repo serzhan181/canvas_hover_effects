@@ -20,6 +20,7 @@ class Particle {
     this.dirY = dirY
     this.size = size
     this.color = color
+    this.baseColor = color
   }
 
   draw() {
@@ -91,6 +92,7 @@ function connect() {
         ctx.beginPath()
         ctx.moveTo(particles[a].x, particles[a].y)
         ctx.lineTo(particles[b].x, particles[b].y)
+        // ctx.lineTo(mouse.x, mouse.y) // Sun
 
         ctx.stroke()
       }
